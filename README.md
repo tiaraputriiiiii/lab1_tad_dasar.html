@@ -164,16 +164,16 @@ html dasar dan dengan isi bebas, boleh mengcopy dari halaman sebelumnya.
 2. ya, kesalahan penulisan tag dalam kode HTML dapat menyebabkan error atau masalah dalam halaman web. Kesalahan tersebut dapat mencakup tag yang tidak ditutup dengan benar, tag yang tidak valid, atau atribut yang salah
 
 3.
-1. Atribut `alt` (Alternative Text): 
-   - Atribut `alt` digunakan untuk memberikan teks alternatif atau deskripsi gambar.
-   - Ini memiliki peran penting dalam aksesibilitas web, karena digunakan oleh pembaca layar untuk membantu pengguna yang memiliki masalah penglihatan memahami konten gambar.
-   - Jika gambar tidak dapat ditampilkan (misalnya, jika berkas gambar tidak dapat dimuat), teks `alt` akan muncul sebagai teks pengganti.
-   - Contoh penggunaan: `<img src="gambar.jpg" alt="Sebuah gambar bukit yang indah">`
+  1. Atribut `alt` (Alternative Text):
+     - Atribut `alt` digunakan untuk memberikan teks alternatif atau deskripsi gambar.
+     - Ini memiliki peran penting dalam aksesibilitas web, karena digunakan oleh pembaca layar untuk membantu pengguna yang memiliki masalah penglihatan memahami konten gambar
+     - Jika gambar tidak dapat ditampilkan (misalnya, jika berkas gambar tidak dapat dimuat), teks `alt` akan muncul sebagai teks pengganti.
+     - Contoh penggunaan: `<img src="gambar.jpg" alt="Sebuah gambar bukit yang indah">`
 
-2. Atribut `title`: 
-   - Atribut `title` digunakan untuk memberikan informasi tambahan atau tooltip ketika pengguna mengarahkan kursor mouse ke gambar.
-   - Ini tidak memiliki dampak pada aksesibilitas web, tetapi dapat memberikan informasi tambahan kepada pengguna tentang gambar tersebut.
-   - Contoh penggunaan: `<img src="gambar.jpg" alt="Sebuah gambar bukit yang indah" title="Pemandangan bukit di musim panas">`
+   2. Atribut `title`:
+      - Atribut `title` digunakan untuk memberikan informasi tambahan atau tooltip ketika pengguna mengarahkan kursor mouse ke gambar.
+      - Ini tidak memiliki dampak pada aksesibilitas web, tetapi dapat memberikan informasi tambahan kepada pengguna tentang gambar tersebut.
+      - Contoh penggunaan: `<img src="gambar.jpg" alt="Sebuah gambar bukit yang indah" title="Pemandangan bukit di musim panas">`
 
 Jadi, perbedaan utama adalah bahwa `alt` digunakan untuk memberikan teks alternatif untuk gambar dan penting untuk aksesibilitas, sementara `title` digunakan untuk memberikan informasi tambahan yang muncul sebagai tooltip saat pengguna mengarahkan kursor mouse ke gambar.
 
