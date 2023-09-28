@@ -12,7 +12,8 @@ kemudian selanjutnya, buka file tersebut pada web browser, misalnya #chrome#
 
 ![image](https://github.com/tiaraputriiiiii/lab1_tad_dasar.html/assets/115775237/93c70efd-ee20-47d1-ab61-7742bf3ce069)
 
-#1. Membuat paragraf#
+# 1. Membuat paragraf 
+
 Selanjutnya buatlah beberapa paragraf sederhana sebagai berikut
 
 <!--Ini adalah paragraf pertama-->
@@ -50,7 +51,8 @@ hasilnya
 
 ![image](https://github.com/tiaraputriiiiii/lab1_tad_dasar.html/assets/115775237/7e2b70ec-8cb6-4df1-92e5-bf4cf4e4af86)
 
-#2. Menambahkan judul#
+# 2. Menambahkan judul 
+
 seperti sudah dijelaskan pada materi bahwa judul memiliki 6 level yaitu h1 sampai h6. kemudian tambahkan judul h1 sebelum paragraf pertama dan tambahkan sub judul h2 sebelum paragraf kedua.
 
 <!--judul paragraf pertama-->
@@ -65,18 +67,21 @@ simpan perubahannya dan lihat hasilnya dengan melakukan refresh pada browser.
 
 ![image](https://github.com/tiaraputriiiiii/lab1_tad_dasar.html/assets/115775237/be187414-dc78-424c-a79f-0be53c8c95bd)
 
-#3. Memformat teks#
+# 3. Memformat teks 
+
 Lakukan pemformatan teks yang ada pada paragraf yang sudah ada sebelumnya, mengacu kepada penjelasan materi pemformatan teks, sehingga tampilannya seperti berikut.
 
 ![image](https://github.com/tiaraputriiiiii/lab1_tad_dasar.html/assets/115775237/1dc395f6-e337-4f5a-a371-8f141246b8b7)
 
-#Code#
+# Code 
+
 <!--judul paragraf pertama-->
 <h1>Belajar Dasar HTML</h1>
 <!--Ini adalah paragraf pertama-->
 <p align="justify">Kami sedang belajar <mark>HTML dasar</mark>, pada matakuliah <b>Pemrograman WEb</b> di Prodi <i>Teknik Informatika</i> <u>Universitas Pelita Bangsa</u>. Pelajaran pertama yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML.</p>
 
-#4. Menyisipkan gambar#
+# 4. Menyisipkan gambar 
+
 Untuk menyisipkan gmbar, siapkan gambar yang akan disisipkan pada halaman web, kemudian simpan file gambar tersebut satu folder dengan file dokumen html. Atau bisa juga menyisipkan gambar dari website external.
 
 ![image](https://github.com/tiaraputriiiiii/lab1_tad_dasar.html/assets/115775237/82d7b9a1-bb4a-4b76-9b13-cc0789961c88)
@@ -97,7 +102,8 @@ Gambar akan ditampilkan apa adanya sesuai dengan ukuran aslinya. Untuk mengatur 
 <!--menambahkan gambar pada dokumen-->
 <img src="Logo_UPB.jpg" width="200" tittle="Logo Universitas Pelita Bangsa">
 
-#5. Menambahkan hyperlink#
+# 5. Menambahkan hyperlink 
+
 Tambahkan hyperlink pada dokumen sebelum heading 1 seperti berikut.
 
 <!--menambahkan link navigasi-->
@@ -110,7 +116,8 @@ Tambahkan hyperlink pada dokumen sebelum heading 1 seperti berikut.
 
 ![image](https://github.com/tiaraputriiiiii/lab1_tad_dasar.html/assets/115775237/2f829172-3d52-4799-965d-b06713462369)
 
-##Jawab Pertanyaan Berikut##
+## Jawab Pertanyaan Berikut
+
 1. Lakukan perubahan pada kode sesuai dengan keinginan anda, amati perubahannya adakah error ketika terjadi kesalahan penulisan tag?
 2. Apa perbedaan dari tag <p> dengan tag <br>, berikan penjelasannya!
 3. Apa perbedaan atribut title dan alt pada tag <img>, berikan penjelasannya!
@@ -120,13 +127,15 @@ Tambahkan hyperlink pada dokumen sebelum heading 1 seperti berikut.
 1. ya, kesalahan penulisan tag dalam kode HTML dapat menyebabkan error atau masalah dalam halaman web. Kesalahan tersebut dapat mencakup tag yang tidak ditutup dengan benar, tag yang tidak valid, atau atribut yang salah
    
 2. ya, kesalahan penulisan tag dalam kode HTML dapat menyebabkan error atau masalah dalam halaman web. Kesalahan tersebut dapat mencakup tag yang tidak ditutup dengan benar, tag yang tidak valid, atau atribut yang salah
-3. # Atribut `alt` (Alternative Text): #
+
+3.
+   # Atribut `alt` (Alternative Text): 
    - Atribut `alt` digunakan untuk memberikan teks alternatif atau deskripsi gambar.
    - Ini memiliki peran penting dalam aksesibilitas web, karena digunakan oleh pembaca layar untuk membantu pengguna yang memiliki masalah penglihatan memahami konten gambar.
    - Jika gambar tidak dapat ditampilkan (misalnya, jika berkas gambar tidak dapat dimuat), teks `alt` akan muncul sebagai teks pengganti.
    - Contoh penggunaan: `<img src="gambar.jpg" alt="Sebuah gambar bukit yang indah">`
 
-   # Atribut `title`: #
+   # Atribut `title`: 
    - Atribut `title` digunakan untuk memberikan informasi tambahan atau tooltip ketika pengguna mengarahkan kursor mouse ke gambar.
    - Ini tidak memiliki dampak pada aksesibilitas web, tetapi dapat memberikan informasi tambahan kepada pengguna tentang gambar tersebut.
    - Contoh penggunaan: `<img src="gambar.jpg" alt="Sebuah gambar bukit yang indah" title="Pemandangan bukit di musim panas">`
