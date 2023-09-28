@@ -2,15 +2,21 @@
 
 Persiapan membuka VSCode dengan browser
 
+
 ![image](https://github.com/tiaraputriiiiii/lab1_tad_dasar.html/assets/115775237/8ca8effb-2ac8-49b7-85a5-362b9275ff9b)
+
 
 kemudian buat file baru dengan nama #lab1_tag_dasar.html# dan tambahkna tag dasar dokumen HTML
 
+
 ![image](https://github.com/tiaraputriiiiii/lab1_tad_dasar.html/assets/115775237/3942875e-6920-4971-902a-aecba08c45fd)
+
 
 kemudian selanjutnya, buka file tersebut pada web browser, misalnya #chrome#
 
+
 ![image](https://github.com/tiaraputriiiiii/lab1_tad_dasar.html/assets/115775237/93c70efd-ee20-47d1-ab61-7742bf3ce069)
+
 
 # 1. Membuat paragraf 
 
@@ -22,34 +28,46 @@ Selanjutnya buatlah beberapa paragraf sederhana sebagai berikut
             <!--ini adalah paragraf kedua-->
             <p align>Ini merupakan sebuah paragraf yang terdiri dari beberapa kalimat yang saling mendukung sehungga menjadi satu kesatuan. paragraf dibuat dengan menggunakan tag dasr html.</p>
 
+
 ![image](https://github.com/tiaraputriiiiii/lab1_tad_dasar.html/assets/115775237/f40aa676-e5d7-4c7b-bea0-bb7e002d1bef)
+
 
 Selanjutnya simpan kembali perubahannya, dan lakukan refresh pada web browser, lihat hasilnya.
 
+
 ![image](https://github.com/tiaraputriiiiii/lab1_tad_dasar.html/assets/115775237/687674b1-55a8-46dc-9b37-f4f09acac66f)
+
 
 kemudian atur atribut paragraf seperti berikut, dan amati perubahannya
 
+
             <!--Ini adalah paragraf pertama-->
             <p align="centere">Kami sedang belajar HTML dasar, pada matakuliah Pemrograman WEb di Prodi Teknik Informatika Universitas Pelita Bangsa. Pelajaran pertama yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML.</p>
-     
+
             <!--ini adalah paragraf kedua-->
             <p align="right">Ini merupakan sebuah paragraf yang terdiri dari beberapa kalimat yang saling mendukung sehungga menjadi satu kesatuan. paragraf dibuat dengan menggunakan tag dasr html.</p>
 
+
 ![image](https://github.com/tiaraputriiiiii/lab1_tad_dasar.html/assets/115775237/8e9b2db7-af3c-406f-9ad5-01c6848d291b)
+
 
 simpan kembali dan amati perubahannya dengan melakukan refresh pada web browser. selanjutnya silahkan ubah - ubah nilai atributnya (align=justify, left, right, dan center)
 
 align= center dan right
 
+
 ![image](https://github.com/tiaraputriiiiii/lab1_tad_dasar.html/assets/115775237/f3fe3c8f-db0c-41bc-a002-8c558b97ddd3)
+
 
 align= justify dan left
 ![image](https://github.com/tiaraputriiiiii/lab1_tad_dasar.html/assets/115775237/6ddf4a00-9a18-4958-89cf-e98b976f1bd2)
 
+
 hasilnya 
 
+
 ![image](https://github.com/tiaraputriiiiii/lab1_tad_dasar.html/assets/115775237/7e2b70ec-8cb6-4df1-92e5-bf4cf4e4af86)
+
 
 # 2. Menambahkan judul 
 
@@ -61,17 +79,23 @@ seperti sudah dijelaskan pada materi bahwa judul memiliki 6 level yaitu h1 sampa
             <!--judul paragraf kedua-->
             <h2>Paragraf pada HTML</h2>
 
+
 ![image](https://github.com/tiaraputriiiiii/lab1_tad_dasar.html/assets/115775237/ca5b31b7-a732-4c67-b55b-1def4fa4d5ac)
+
 
 simpan perubahannya dan lihat hasilnya dengan melakukan refresh pada browser.
 
+
 ![image](https://github.com/tiaraputriiiiii/lab1_tad_dasar.html/assets/115775237/be187414-dc78-424c-a79f-0be53c8c95bd)
+
 
 # 3. Memformat teks 
 
 Lakukan pemformatan teks yang ada pada paragraf yang sudah ada sebelumnya, mengacu kepada penjelasan materi pemformatan teks, sehingga tampilannya seperti berikut.
 
+
 ![image](https://github.com/tiaraputriiiiii/lab1_tad_dasar.html/assets/115775237/1dc395f6-e337-4f5a-a371-8f141246b8b7)
+
 
 # Code 
 
@@ -84,7 +108,9 @@ Lakukan pemformatan teks yang ada pada paragraf yang sudah ada sebelumnya, menga
 
 Untuk menyisipkan gmbar, siapkan gambar yang akan disisipkan pada halaman web, kemudian simpan file gambar tersebut satu folder dengan file dokumen html. Atau bisa juga menyisipkan gambar dari website external.
 
+
 ![image](https://github.com/tiaraputriiiiii/lab1_tad_dasar.html/assets/115775237/82d7b9a1-bb4a-4b76-9b13-cc0789961c88)
+
 
 kemudian tambahkan tag img setelah paragraf yang kedua, dengan menambahkan heading 3 sebelumnya.
 
@@ -92,8 +118,10 @@ kemudian tambahkan tag img setelah paragraf yang kedua, dengan menambahkan headi
             <h3>Menambahkan Gambar</h3>
             <!--menambahkan gambar pada dokumen-->
             <img src="Logo_UPB.jpg" tittle="Logo Universitas Pelita Bangsa">
+            
 
 ![image](https://github.com/tiaraputriiiiii/lab1_tad_dasar.html/assets/115775237/47548423-9ddb-4783-8800-e1c093d5481a)
+
 
 Gambar akan ditampilkan apa adanya sesuai dengan ukuran aslinya. Untuk mengatur ukuran gambar, dapat digunakan atribut witdh dan height dengan nilai integer yang disesuaikan.
 
@@ -114,7 +142,12 @@ Tambahkan hyperlink pada dokumen sebelum heading 1 seperti berikut.
                 </nav>
                 <hr>
 
+Buat satu file lagi dengan nama lab1_halaman2.html kemudian isi dokumen tersebut dengan tag
+html dasar dan dengan isi bebas, boleh mengcopy dari halaman sebelumnya.
+
+
 ![image](https://github.com/tiaraputriiiiii/lab1_tad_dasar.html/assets/115775237/2f829172-3d52-4799-965d-b06713462369)
+
 
 ## Jawab Pertanyaan Berikut
 
@@ -129,13 +162,13 @@ Tambahkan hyperlink pada dokumen sebelum heading 1 seperti berikut.
 2. ya, kesalahan penulisan tag dalam kode HTML dapat menyebabkan error atau masalah dalam halaman web. Kesalahan tersebut dapat mencakup tag yang tidak ditutup dengan benar, tag yang tidak valid, atau atribut yang salah
 
 3.
-   # Atribut `alt` (Alternative Text): 
+1. Atribut `alt` (Alternative Text): 
    - Atribut `alt` digunakan untuk memberikan teks alternatif atau deskripsi gambar.
    - Ini memiliki peran penting dalam aksesibilitas web, karena digunakan oleh pembaca layar untuk membantu pengguna yang memiliki masalah penglihatan memahami konten gambar.
    - Jika gambar tidak dapat ditampilkan (misalnya, jika berkas gambar tidak dapat dimuat), teks `alt` akan muncul sebagai teks pengganti.
    - Contoh penggunaan: `<img src="gambar.jpg" alt="Sebuah gambar bukit yang indah">`
 
-   # Atribut `title`: 
+2. Atribut `title`: 
    - Atribut `title` digunakan untuk memberikan informasi tambahan atau tooltip ketika pengguna mengarahkan kursor mouse ke gambar.
    - Ini tidak memiliki dampak pada aksesibilitas web, tetapi dapat memberikan informasi tambahan kepada pengguna tentang gambar tersebut.
    - Contoh penggunaan: `<img src="gambar.jpg" alt="Sebuah gambar bukit yang indah" title="Pemandangan bukit di musim panas">`
