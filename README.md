@@ -175,11 +175,11 @@ html dasar dan dengan isi bebas, boleh mengcopy dari halaman sebelumnya.
       - Ini tidak memiliki dampak pada aksesibilitas web, tetapi dapat memberikan informasi tambahan kepada pengguna tentang gambar tersebut.
       - Contoh penggunaan: `<img src="gambar.jpg" alt="Sebuah gambar bukit yang indah" title="Pemandangan bukit di musim panas">`
 
-    Jadi, perbedaan utama adalah bahwa `alt` digunakan untuk memberikan teks alternatif untuk gambar dan penting untuk aksesibilitas, sementara `title` digunakan untuk memberikan informasi tambahan yang muncul sebagai tooltip saat pengguna mengarahkan kursor mouse ke gambar.
+            Jadi, perbedaan utama adalah bahwa `alt` digunakan untuk memberikan teks alternatif untuk gambar dan penting untuk aksesibilitas, sementara `title` digunakan untuk memberikan informasi tambahan yang muncul sebagai tooltip saat pengguna mengarahkan kursor mouse ke gambar.
 
 4. Untuk mengatur ukuran gambar dalam HTML, dapat menggunakan atribut `width` (lebar) dan `height` (tinggi). Agar tampilan gambar tetap proporsional, sebaiknya mengisi hanya salah satu dari kedua atribut tersebut, biasanya `width` atau `height`, sementara yang lainnya akan dihitung secara otomatis oleh browser.
 
-   Ini dilakukan karena gambar memiliki rasio aspek (aspect ratio), yang merupakan perbandingan antara lebar dan tingginya. Jika mengisi baik `width` maupun `height`, tanpa memperhatikan rasio aspek gambar, gambar tersebut dapat terlihat terdistorsi atau tidak proporsional.
+            Ini dilakukan karena gambar memiliki rasio aspek (aspect ratio), yang merupakan perbandingan antara lebar dan tingginya. Jika mengisi baik `width` maupun `height`, tanpa memperhatikan rasio aspek gambar, gambar tersebut dapat terlihat terdistorsi atau tidak proporsional.
 
 5.
    * `_blank`:
