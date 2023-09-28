@@ -164,13 +164,13 @@ html dasar dan dengan isi bebas, boleh mengcopy dari halaman sebelumnya.
 2. ya, kesalahan penulisan tag dalam kode HTML dapat menyebabkan error atau masalah dalam halaman web. Kesalahan tersebut dapat mencakup tag yang tidak ditutup dengan benar, tag yang tidak valid, atau atribut yang salah
 
 3.
-  1. Atribut `alt` (Alternative Text):
+  * Atribut `alt` (Alternative Text):
      - Atribut `alt` digunakan untuk memberikan teks alternatif atau deskripsi gambar.
      - Ini memiliki peran penting dalam aksesibilitas web, karena digunakan oleh pembaca layar untuk membantu pengguna yang memiliki masalah penglihatan memahami konten gambar
      - Jika gambar tidak dapat ditampilkan (misalnya, jika berkas gambar tidak dapat dimuat), teks `alt` akan muncul sebagai teks pengganti.
      - Contoh penggunaan: `<img src="gambar.jpg" alt="Sebuah gambar bukit yang indah">`
 
-   2. Atribut `title`:
+  * Atribut `title`:
       - Atribut `title` digunakan untuk memberikan informasi tambahan atau tooltip ketika pengguna mengarahkan kursor mouse ke gambar.
       - Ini tidak memiliki dampak pada aksesibilitas web, tetapi dapat memberikan informasi tambahan kepada pengguna tentang gambar tersebut.
       - Contoh penggunaan: `<img src="gambar.jpg" alt="Sebuah gambar bukit yang indah" title="Pemandangan bukit di musim panas">`
@@ -182,14 +182,14 @@ Jadi, perbedaan utama adalah bahwa `alt` digunakan untuk memberikan teks alterna
 Ini dilakukan karena gambar memiliki rasio aspek (aspect ratio), yang merupakan perbandingan antara lebar dan tingginya. Jika mengisi baik `width` maupun `height`, tanpa memperhatikan rasio aspek gambar, gambar tersebut dapat terlihat terdistorsi atau tidak proporsional.
 
 5.
-1. `_blank`:
-   - Ketika `target="_blank"` digunakan, tautan akan membuka halaman yang ditautkan dalam tab atau jendela browser baru, terpisah dari halaman asal. Ini berguna ketika Anda ingin menjaga pengguna tetap di halaman asal dan membuka tautan eksternal atau tautan yang tidak ingin menggantikan halaman asal.
+   * `_blank`:
+     - Ketika `target="_blank"` digunakan, tautan akan membuka halaman yang ditautkan dalam tab atau jendela browser baru, terpisah dari halaman asal. Ini berguna ketika Anda ingin menjaga pengguna tetap di halaman asal dan membuka tautan eksternal atau tautan yang tidak ingin menggantikan halaman asal.
 
-2. `_self`:
-   - Ini adalah nilai default untuk atribut `target`. Ketika `target="_self"` digunakan, tautan akan membuka halaman yang ditautkan di jendela atau tab yang sama di mana halaman asal berada. Ini berarti halaman asal akan digantikan dengan halaman yang baru.
+   * `_self`:
+     - Ini adalah nilai default untuk atribut `target`. Ketika `target="_self"` digunakan, tautan akan membuka halaman yang ditautkan di jendela atau tab yang sama di mana halaman asal berada. Ini berarti halaman asal akan digantikan dengan halaman yang baru.
 
-3. `_top`:
-   - Ketika `target="_top"` digunakan, tautan akan membuka halaman yang ditautkan di jendela atau tab paling atas atau paling tinggi dalam tumpukan jendela browser. Jadi, jika halaman asal ada dalam bingkai (frame), tautan akan membuka halaman baru di luar bingkai tersebut.
+   * `_top`:
+     - Ketika `target="_top"` digunakan, tautan akan membuka halaman yang ditautkan di jendela atau tab paling atas atau paling tinggi dalam tumpukan jendela browser. Jadi, jika halaman asal ada dalam bingkai (frame), tautan akan membuka halaman baru di luar bingkai tersebut.
 
-4. `_parent`:
-   - `target="_parent"` digunakan ketika halaman web memiliki bingkai (frame) yang saling terkait. Ini akan membuka tautan di jendela atau tab yang menggantikan bingkai "induk" yang berisi tautan tersebut.
+   * `_parent`:
+     - `target="_parent"` digunakan ketika halaman web memiliki bingkai (frame) yang saling terkait. Ini akan membuka tautan di jendela atau tab yang menggantikan bingkai "induk" yang berisi tautan tersebut.
