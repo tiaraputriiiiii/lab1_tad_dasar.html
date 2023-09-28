@@ -157,6 +157,8 @@ html dasar dan dengan isi bebas, boleh mengcopy dari halaman sebelumnya.
 4. Untuk mengatur ukuran gambar, digunakan atribut width dan height. Agar tampilan gambar proporsional sebaiknya kedua atribut tersebut diisi semua atau tidak? Berikan penjelasannya!
 5. Pada link tambahkan atribut target dengan nilai atribut bervariasi ( _blank, _self, _top, _parent ), apa yang terjadi pada masing-masing nilai antribut tersebut?
 
+# jawaban:
+
 1. ya, kesalahan penulisan tag dalam kode HTML dapat menyebabkan error atau masalah dalam halaman web. Kesalahan tersebut dapat mencakup tag yang tidak ditutup dengan benar, tag yang tidak valid, atau atribut yang salah
    
 2. ya, kesalahan penulisan tag dalam kode HTML dapat menyebabkan error atau masalah dalam halaman web. Kesalahan tersebut dapat mencakup tag yang tidak ditutup dengan benar, tag yang tidak valid, atau atribut yang salah
