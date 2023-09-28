@@ -16,11 +16,11 @@ kemudian selanjutnya, buka file tersebut pada web browser, misalnya #chrome#
 
 Selanjutnya buatlah beberapa paragraf sederhana sebagai berikut
 
-<!--Ini adalah paragraf pertama-->
-<p align>Kami sedang belajar HTML dasar, pada matakuliah Pemrograman WEb di Prodi Teknik Informatika Universitas Pelita Bangsa. Pelajaran pertama yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML.</p>
+            <!--Ini adalah paragraf pertama-->
+            <p align>Kami sedang belajar HTML dasar, pada matakuliah Pemrograman WEb di Prodi Teknik Informatika Universitas Pelita Bangsa. Pelajaran pertama yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML.</p>
     
-<!--ini adalah paragraf kedua-->
-<p align>Ini merupakan sebuah paragraf yang terdiri dari beberapa kalimat yang saling mendukung sehungga menjadi satu kesatuan. paragraf dibuat dengan menggunakan tag dasr html.</p>
+            <!--ini adalah paragraf kedua-->
+            <p align>Ini merupakan sebuah paragraf yang terdiri dari beberapa kalimat yang saling mendukung sehungga menjadi satu kesatuan. paragraf dibuat dengan menggunakan tag dasr html.</p>
 
 ![image](https://github.com/tiaraputriiiiii/lab1_tad_dasar.html/assets/115775237/f40aa676-e5d7-4c7b-bea0-bb7e002d1bef)
 
@@ -30,11 +30,11 @@ Selanjutnya simpan kembali perubahannya, dan lakukan refresh pada web browser, l
 
 kemudian atur atribut paragraf seperti berikut, dan amati perubahannya
 
-<!--Ini adalah paragraf pertama-->
-<p align="centere">Kami sedang belajar HTML dasar, pada matakuliah Pemrograman WEb di Prodi Teknik Informatika Universitas Pelita Bangsa. Pelajaran pertama yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML.</p>
+            <!--Ini adalah paragraf pertama-->
+            <p align="centere">Kami sedang belajar HTML dasar, pada matakuliah Pemrograman WEb di Prodi Teknik Informatika Universitas Pelita Bangsa. Pelajaran pertama yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML.</p>
      
-<!--ini adalah paragraf kedua-->
-<p align="right">Ini merupakan sebuah paragraf yang terdiri dari beberapa kalimat yang saling mendukung sehungga menjadi satu kesatuan. paragraf dibuat dengan menggunakan tag dasr html.</p>
+            <!--ini adalah paragraf kedua-->
+            <p align="right">Ini merupakan sebuah paragraf yang terdiri dari beberapa kalimat yang saling mendukung sehungga menjadi satu kesatuan. paragraf dibuat dengan menggunakan tag dasr html.</p>
 
 ![image](https://github.com/tiaraputriiiiii/lab1_tad_dasar.html/assets/115775237/8e9b2db7-af3c-406f-9ad5-01c6848d291b)
 
@@ -55,11 +55,11 @@ hasilnya
 
 seperti sudah dijelaskan pada materi bahwa judul memiliki 6 level yaitu h1 sampai h6. kemudian tambahkan judul h1 sebelum paragraf pertama dan tambahkan sub judul h2 sebelum paragraf kedua.
 
-<!--judul paragraf pertama-->
-<h1>Belajar Dasar HTML</h1>
-
-<!--judul paragraf kedua-->
-<h2>Paragraf pada HTML</h2>
+            <!--judul paragraf pertama-->
+            <h1>Belajar Dasar HTML</h1>
+            
+            <!--judul paragraf kedua-->
+            <h2>Paragraf pada HTML</h2>
 
 ![image](https://github.com/tiaraputriiiiii/lab1_tad_dasar.html/assets/115775237/ca5b31b7-a732-4c67-b55b-1def4fa4d5ac)
 
@@ -75,10 +75,10 @@ Lakukan pemformatan teks yang ada pada paragraf yang sudah ada sebelumnya, menga
 
 # Code 
 
-<!--judul paragraf pertama-->
-<h1>Belajar Dasar HTML</h1>
-<!--Ini adalah paragraf pertama-->
-<p align="justify">Kami sedang belajar <mark>HTML dasar</mark>, pada matakuliah <b>Pemrograman WEb</b> di Prodi <i>Teknik Informatika</i> <u>Universitas Pelita Bangsa</u>. Pelajaran pertama yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML.</p>
+            <!--judul paragraf pertama-->
+            <h1>Belajar Dasar HTML</h1>
+            <!--Ini adalah paragraf pertama-->
+            <p align="justify">Kami sedang belajar <mark>HTML dasar</mark>, pada matakuliah <b>Pemrograman WEb</b> di Prodi <i>Teknik Informatika</i> <u>Universitas Pelita Bangsa</u>. Pelajaran pertama yang kami dapat adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML.</p>
 
 # 4. Menyisipkan gambar 
 
@@ -88,31 +88,31 @@ Untuk menyisipkan gmbar, siapkan gambar yang akan disisipkan pada halaman web, k
 
 kemudian tambahkan tag img setelah paragraf yang kedua, dengan menambahkan heading 3 sebelumnya.
 
-<!--sub judul paragraf-->
-<h3>Menambahkan Gambar</h3>
-<!--menambahkan gambar pada dokumen-->
-<img src="Logo_UPB.jpg" tittle="Logo Universitas Pelita Bangsa">
+            <!--sub judul paragraf-->
+            <h3>Menambahkan Gambar</h3>
+            <!--menambahkan gambar pada dokumen-->
+            <img src="Logo_UPB.jpg" tittle="Logo Universitas Pelita Bangsa">
 
 ![image](https://github.com/tiaraputriiiiii/lab1_tad_dasar.html/assets/115775237/47548423-9ddb-4783-8800-e1c093d5481a)
 
 Gambar akan ditampilkan apa adanya sesuai dengan ukuran aslinya. Untuk mengatur ukuran gambar, dapat digunakan atribut witdh dan height dengan nilai integer yang disesuaikan.
 
-<!--sub judul paragraf-->
-<h3>Menambahkan Gambar</h3>
-<!--menambahkan gambar pada dokumen-->
-<img src="Logo_UPB.jpg" width="200" tittle="Logo Universitas Pelita Bangsa">
+            <!--sub judul paragraf-->
+            <h3>Menambahkan Gambar</h3>
+            <!--menambahkan gambar pada dokumen-->
+            <img src="Logo_UPB.jpg" width="200" tittle="Logo Universitas Pelita Bangsa">
 
 # 5. Menambahkan hyperlink 
 
 Tambahkan hyperlink pada dokumen sebelum heading 1 seperti berikut.
 
-<!--menambahkan link navigasi-->
-    <nav>
-        <a href="lab1_tag_dasar.html">Dasar HTML</a>
-        <a href="lab1_halaman2.html">Halaman 2</a>
-        <a href="http://www.google.com">Halaman Web Eksternal</a>
-    </nav>
-    <hr>
+            <!--menambahkan link navigasi-->
+                <nav>
+                    <a href="lab1_tag_dasar.html">Dasar HTML</a>
+                    <a href="lab1_halaman2.html">Halaman 2</a>
+                    <a href="http://www.google.com">Halaman Web Eksternal</a>
+                </nav>
+                <hr>
 
 ![image](https://github.com/tiaraputriiiiii/lab1_tad_dasar.html/assets/115775237/2f829172-3d52-4799-965d-b06713462369)
 
